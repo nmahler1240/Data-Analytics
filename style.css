@@ -1,7 +1,10 @@
+*{ line-height: 1.6;}
 body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
+	height: 100%;
+	width: 100%;
 }
 
 header {
@@ -33,7 +36,7 @@ nav li a:hover {
 }
 
 .hero-image {
-	background-image: url('https://www.sas.com/en_us/insights/articles/data-management/what-is-data-profiling-and-how-does-it-make-big-data-easier/_jcr_content/par/styledcontainer_7b2c/image.img.jpg/1457718597064.jpg');
+	background-image: url('background1.png');
 	background-position: center;
 	background-size: cover;
 	height: 500px;
@@ -42,6 +45,7 @@ nav li a:hover {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	width: 100%;
 }
 
 .hero-image h1 {
@@ -68,5 +72,8 @@ footer {
 	text-align: center;
 	padding: 20px;
 	bottom: 0;
+}
+#divider{
+	align-items: center;
 	width: 100%;
 }
